@@ -17,6 +17,12 @@
     }
 }
 
+@mixin media-hugemobile {
+    @media (max-width: $mobile-huge) {
+        @content;
+    }
+}
+
 @mixin media-mobile {
     @media (max-width: $mobile-big-width) {
         @content;

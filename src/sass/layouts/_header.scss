@@ -8,6 +8,11 @@
     display: flex;
     align-items: center;
     padding: 0 43px;
+    @include media-hugemobile {
+        // padding: 11px 12px;
+        padding: 17px 12px 2px 12px;
+    }
+
     @include media-mobile {
         // padding: 11px 12px;
         padding: 17px 12px 2px 12px;
@@ -15,6 +20,10 @@
 }
 
 .logo-object {
+    @include media-hugemobile {
+        width: 60%;
+    }
+
     @include media-mobile {
         width: 60%;
     }
@@ -26,6 +35,10 @@
     @extend %font-regular;
     @include font(18px, 400, 22px);
     margin-right: 35px;
+
+    @include media-hugemobile {
+        display: none;
+    }
 
     @include media-mobile {
         display: none;

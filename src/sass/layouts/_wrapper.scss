@@ -8,6 +8,10 @@
 
 .header__wrapper {
     max-width: 1920px;
+    @include media-hugemobile {
+        padding: 2px 21px;
+    }
+
     @include media-mobile {
         padding: 2px 21px;
     }

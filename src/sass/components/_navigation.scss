@@ -6,6 +6,10 @@
     @include media-mobile {
         display: none;
     }
+
+    @include media-hugemobile {
+        display: none;
+    }
     
 }
 
@@ -16,6 +20,10 @@
     cursor: pointer;
     
     @include media-mobile {
+        display: none;
+    }
+    
+    @include media-hugemobile {
         display: none;
     }
 

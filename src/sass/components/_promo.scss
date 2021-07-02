@@ -2,6 +2,10 @@
     padding: 7px 20px 0 20px;
     margin: auto;
 
+    @include media-hugemobile {
+        overflow: hidden;
+    }
+
     @include media-mobile {
         overflow: hidden;
     }
@@ -15,6 +19,10 @@
     align-items: center;
     background: $color-background;
 
+    @include media-hugemobile {
+        padding-top: 36px;
+    }
+
     @include media-mobile {
         padding-top: 36px;
     }
@@ -25,6 +33,12 @@
     padding-right: 102px;
     padding-left: 65px;
     max-width: 567px;
+
+    @include media-hugemobile {
+        max-width: 360px;
+        padding-right: 40px;
+        padding-left: 16px;
+    }
 
     @include media-mobile {
         max-width: 360px;
@@ -38,6 +52,10 @@
     margin: 0 0 30px;
     @extend %font-black;
     @include font(46px, 900, 56px);
+
+    @include media-hugemobile {
+        @include font(27.9px, 400, 34px);
+    }
 
     @include media-mobile {
         @include font(27.9px, 400, 34px);
@@ -61,6 +79,10 @@
     @extend %font-regular;
     @include font($size: 18px, $height: 27px, $weight: normal);
 
+    @include media-hugemobile {
+        display: none;
+    }
+
     @include media-mobile {
         display: none;
     }
@@ -69,6 +91,10 @@
 
 .promo__buttons {
     padding-bottom: 50px;
+
+    @include media-hugemobile {
+        padding-bottom: 0;
+    }
 
     @include media-mobile {
         padding-bottom: 0;
@@ -79,6 +105,10 @@
 .promo__image {
     padding-right: 65px;
 
+    @include media-hugemobile {
+        display: none;
+    }
+
     @include media-mobile {
         display: none;
     }
@@ -87,6 +117,13 @@
 
 .promo__image_mobile {
     display: none;
+
+    @include media-hugemobile {
+        max-width: 115%;
+        padding-left: 0;
+        // padding-bottom: 10px;
+        display: flex;
+    }
 
     @include media-mobile {
         max-width: 115%;

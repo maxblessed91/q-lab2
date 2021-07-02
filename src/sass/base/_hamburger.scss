@@ -20,6 +20,10 @@
     width: 23px;
     height: 18px;
 
+    @include media-hugemobile {
+        display: inline-block;
+    }
+
     @include media-mobile {
         display: inline-block;
     }
