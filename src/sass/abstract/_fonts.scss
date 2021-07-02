@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Formular-Black";
+  src: url("/src/fonts/Formular-Black.eot");
+  src: local("☺"), url("/src/fonts/fonts/Formular-Black.woff") format("woff"),
+    url("/src/fonts/fonts/Formular-Black.ttf") format("truetype"),
+    url("/src/fonts/fonts/Formular-Black.svg") format("svg");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Formular-Bold";
+  src: url("/src/fonts/fonts/Formular-Bold.eot");
+  src: local("☺"), url("/src/fonts/fonts/Formular-Bold.woff") format("woff"),
+    url("/src/fonts/fonts/Formular-Bold.ttf") format("truetype"),
+    url("/src/fonts/fonts/Formular-Bold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Formular-Regular";
+  src: url("/src/fonts/fonts/Formular-Regular.eot");
+  src: local("☺"), url("/src/fonts/fonts/Formular-Regular.woff") format("woff"),
+    url("/src/fonts/fonts/Formular-Regular.ttf") format("truetype"),
+    url("/src/fonts/fonts/Formular-Regular.svg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}

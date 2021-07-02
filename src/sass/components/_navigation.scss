@@ -1,0 +1,26 @@
+.navigation {
+    display: flex;
+    @include font(18px, 400, 22px);
+    @extend %font-regular;
+
+    @include media-mobile {
+        display: none;
+    }
+    
+}
+
+.navigation__link {
+    list-style: none;
+    color: $color-link;
+    padding: 0 21px;
+    cursor: pointer;
+    
+    @include media-mobile {
+        display: none;
+    }
+
+        &:hover {
+            text-decoration: underline;
+            text-decoration-color: blue;
+        }
+}

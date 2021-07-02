@@ -1,0 +1,14 @@
+.wrapper {
+    max-width: $content-width;
+    margin: auto;
+    @include media-mobile {
+        // padding: 0 10px;
+    }
+}
+
+.header__wrapper {
+    max-width: 1920px;
+    @include media-mobile {
+        padding: 2px 21px;
+    }
+}
